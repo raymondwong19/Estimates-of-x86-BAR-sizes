@@ -23,3 +23,5 @@ The latest Threadripper Pro can probably take 200GB of VRAM. They ARE known to w
 
 IBM POWER10 server chip!
 At least 512GB. Those are monsters of expandability. Not available to mere mortals.
+
+Notes : Anyways, you would need Above 4G Decoding to make use of address spaces above 32-bit. Top 32-bit cards tend to have 3GB of VRAM. But as we know, it's hit or miss on Mini PCs or so, vendors mighta have hidden the Above 4G Decoding options in the UEFI.
