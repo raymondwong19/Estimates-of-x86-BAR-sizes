@@ -25,3 +25,4 @@ IBM POWER10 server chip!
 At least 512GB. Those are monsters of expandability. Not available to mere mortals.
 
 Notes : Anyways, you would need Above 4G Decoding to make use of address spaces above 32-bit. Top 32-bit cards tend to have 3GB of VRAM. But as we know, it's hit or miss on Mini PCs or so, vendors mighta have hidden the Above 4G Decoding options in the UEFI.
+And anyways, it depends on the graphics card very heavily. There is the legacy function mode for many consumer GPUs, especially older ones, in which they have a 256MB apeture for communication with the main system's PCIe, and the rest of the VRAM is managed internally. And there are some Battlemages and alot of datacenter/Pro cards that require Above 4G Decoding and refuses to work if they are not fully mapped into memory.
